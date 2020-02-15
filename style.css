@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.bg-image{
+    /* gambar yang digunakan */
+    background-image: url("MacGitar.jpg");
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    position: absolute;
+    margin: 20px;
+    /* right: 16px; membuat navbar ke kanan */
+    width: auto;
+}
+.topnav a{
+    float: left;
+    font-weight: bolder;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    border-radius: 10px;
+    color: black;
+}
+.content{
+    background-color: rgb(0,0,0); /* warna hitam */
+    background-color: rgba(0,0,0, 0.3); /* efek transparan */
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+/* start css pendidikan */
+.content-pendidikan{
+    background-color: rgb(0,0,0); /* warna hitam */
+    background-color: rgba(0,0,0, 0.5); /*efek transparan*/
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-spacing: 15px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th{
+    width: 20%;
+    background-color: rgb(119, 136, 153);
+    background-color: rgba(119, 136, 153, 0.8);
+    color: rgb(255, 255, 255);
+}
+td{
+    background-color: rgb(201, 209, 216);
+    background-color: rgba(201, 209, 216, 0.3);
+}
+/* end css pendidikan */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    background-color: #ffffff;
+    max-width: 23%;
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: auto;
+    /* margin: auto; */
+    text-align: center;
+    font-family: arial;
+  }
+.card img{
+    margin-top: -50px;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+/* end css me */
+/* Start css skill */
+.wrapper .container {
+    width: 100%;
+    margin-top: -25px;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 40%; 
+    background-color: #4CAF50;}
+.css {
+    width: 30%; 
+    background-color: #2196F3;}
+.php {
+    width: 20%; 
+    background-color: #f44336;}
+.ci {width: 20%; 
+    background-color: mediumseagreen;}
+/* end css skill */
+
+/* start css pelatihan  */
+.wrapper{
+    height: 400px;
+    width: 750px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 160px;
+    left: 35%;
+}
+.wrapper img{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left:  25%;
+    transform: translate(-50%, -50%);
+}
+.wrapper h1{
+    margin-right: 80px;
+    margin-left: 110px;
+    color: white;
+}
+.content-pelatihan{
+    margin-left: 50%;
+    margin-top: 10%;
+    color: rgb(33, 33, 34);
+}
+/* end css pelatihan */
